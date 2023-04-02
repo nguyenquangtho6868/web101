@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+ .header{width: 100%;font: 1em sans-serif; text-align: center;  } 
+ .header__children{ background-color: rgb(58, 58, 65); color:white}
+ .paragraph{  background-size: 100%; font: 1em sans-serif; float: left;background-image: url(image/dalat/dalatbackground.jpg);background-repeat: no-repeat;  height:800px;font-size: 150%; }
+ .paragraph__children{color: crimson;}
+ .image{float: left; }
+.image__children{font-size: 500%;}
+
+@media only screen and (max-width: 992px) {
+  /* For tableb */
+  .paragraph{background-image: none; font-size: 80%;height:200px ;width: 80%; }
+  .col-3{width: 40%;}
+  .header__children{font-size: 80%;}
+  .header{height: 100px; width: 80%;}
+ 
+}
+
+
+                                        
+    @media only screen and (max-width: 767px){
+      /*For mobile*/
+      .col-3{width: 100%;}
+
+
+
+    }
